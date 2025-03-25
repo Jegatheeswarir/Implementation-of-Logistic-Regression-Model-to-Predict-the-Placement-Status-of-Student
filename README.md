@@ -21,12 +21,13 @@ Step 5. Make predictions on the test data, inverse transform the predictions, ca
 Step 6. Stop
 
 ## Program:
+
 ```
-/*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: JEGATHEESWARI R
 RegisterNumber:  212223230092
-*/
+```
+```
 import pandas as pd
 df=pd.read_csv('Placement_Data.csv')
 df.head()
